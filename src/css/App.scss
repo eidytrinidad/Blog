@@ -5,11 +5,23 @@
 }
 
 @import 'FontsColors.scss';
+@import '_header.scss';
 
 
 .App{
     font-family: $font-family;
     font-size: 16px;
     background: $fondo;
-    height: 100vh;
+ 
+}
+
+.ad
+{
+    margin-bottom: 1.25rem;
+    text-align: center;
+}
+
+a 
+{
+    color:$azul-primario;
 }

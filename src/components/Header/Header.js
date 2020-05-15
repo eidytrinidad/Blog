@@ -9,11 +9,10 @@ function Header() {
     return (
         <header >
             <div className="container">
-
                 <LogoSocials/>
-                <Nav />
-                <Banner/>
             </div>
+            <Nav />
+            <Banner/>
         </header>
     )
 }
