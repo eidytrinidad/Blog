@@ -1,13 +1,14 @@
 import React from 'react';
 import {BrowserRouter as Router,Switch,Route} from 'react-router-dom';
 import './css/App.css'
-import Header from './components/Header';
+import Header from './components/Header/Header';
+
 
 function App() {
   return (
     <Router>
     <div className="App">
-      <Route path="/" component={Header}/>
+    <Route path="/" component={Header}/>
 
       </div>
     </Router>

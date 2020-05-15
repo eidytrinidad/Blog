@@ -7,7 +7,9 @@
 @import 'FontsColors.scss';
 
 
-body{
-    font-family: 'Open Sans', sans-serif;
+.App{
+    font-family: $font-family;
     font-size: 16px;
+    background: $fondo;
+    height: 100vh;
 }
